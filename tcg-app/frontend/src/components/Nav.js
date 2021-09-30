@@ -12,18 +12,18 @@ function Nav() {
     return (
      <nav className="nav-bar">
        <Link style={navStyle}  to="/">
-       <h3>TCG-APP</h3>
+       <h3>TCG-app</h3>
        </Link>
        
 
        <ul className='nav-links'>
 
          
-         <Link style={navStyle} to="/loginForm">
-         <li>update</li>
-         </Link>
-         <Link style={navStyle} to="/about" >
+         <Link style={navStyle} to="/login">
          <li>login</li>
+         </Link>
+         <Link style={navStyle} to="/update" >
+         <li>updates</li>
          </Link>
        </ul>
      </nav>

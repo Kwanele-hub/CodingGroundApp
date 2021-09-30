@@ -1,24 +1,42 @@
 import './App.css';
-import {BrowserRouter as Router , Switch , Route} from 'react-router-dom';
 import Nav from './components/Nav';
-import Form from './components/Form';
+import UpdateForm from './components/UpdateForm'
+import Form from './components/Form'
+import {BrowserRouter as Router , Switch , Route} from 'react-router-dom';
 import Home from './components/Home';
-import UpdateForm from './components/UpdateForm';
+
+
+
+
+
 
 function App() {
+  
+     
+  
   return (
     <Router >
     <div className="App">
       <Nav/>
-      hello
       <Switch>
       <Route path="/" exact component={Home} />
-      <Route path="/about" component={Form} />
-      <Route path="/main" component={UpdateForm} />
+      <Route path="/login" component={Form} />
+      <Route path="/update" component={UpdateForm} />
+      
       </Switch>
     </div>
     </Router>
   );
 }
+
+
+  
+  
+
+
+  
+
+
+
 
 export default App;
