@@ -1,6 +1,6 @@
 # TCG-TRACKER-APP
 
-The TCG-TRACKER-APP is a small react full-stack app for tracking the coding ground students' progress. The TCG-TRACKER-APP allows students to add their daily activities and evidence for their exercises against different activities done daily. With students, the tracker app will help facilitators to quickly, easily see which students are at which stats and their progression throughout the year. Tracking student's progress data helps facilitators to make sure that the process of learning works according to expectations with no delays or gaps. (https://tcg-student-tracker.web.app/)
+The TCG-TRACKER-APP is a small react full-stack app for tracking the coding ground students' progress. The TCG-TRACKER-APP allows students to add their daily activities and evidence for their exercises against different activities done daily. With students, the tracker app will help facilitators to quickly, easily see which students are at which stats and their progression throughout the year. Tracking student's progress data helps facilitators to make sure that the process of learning works according to expectations with no delays or gaps. 
 
 ##  INSTALLATION
 
