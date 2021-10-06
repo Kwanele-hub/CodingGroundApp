@@ -1,12 +1,11 @@
 import React from 'react';
-import {  useSelector } from 'react-redux';
 import UpdateForm from './UpdateForm';
 
 const Edit = () => {
-    const items = useSelector(state => state.items.update)
+    const formData =(state => state.formData.update)
     
     const deleteItem =(id)=>{
-    return items.filter(item=> item.id !== id)
+    return formData.filter(item=> item.id !== id)
     }
     
     const completedItem = () =>({
@@ -15,7 +14,7 @@ const Edit = () => {
             
 
     <ul className={'item-list'}>
-        {items && items.map(item => (
+        {formData && formData.map(item => (
             <UpdateForm key={ item.id } {...item}  remove={deleteItem} complete={completedItem} />
         ))}
     </ul>
