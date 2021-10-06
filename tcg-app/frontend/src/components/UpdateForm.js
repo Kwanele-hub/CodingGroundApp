@@ -12,7 +12,7 @@ const UpdateForm = ({freeCodeCamp, typing, codeWars, blogPost,remove ,id, comple
 const handleEditSubmit = (id) => {
 let newObj = Form.find(newItem => newItem.id === id )
 newObj.useState = update
-return (editItem(newObj))
+return ((newObj))
 
 
   }
@@ -46,13 +46,13 @@ const handleEditChange = (e) => {
            
         </table>
     
-    <button onClick={()=> (deleteItem(remove(id)))}>delete</button>
-    {freeCodeCamp, blogPost, codeWars, typing.id}
+    <button onClick={()=> ((remove(id)))}>delete</button>
+    {useState.id}
       {!edit ? (
         <>
       
-          <span>{freeCodeCamp, blogPost, codeWars, typing.task}</span>{" "}
-          <button onClick={handleEdit} disabled={freeCodeCamp,codeWars,typing,blogPost.completed}>
+          <span>{useState.task}</span>{" "}
+          <button onClick={handleEdit} disabled={useState.completed}>
             Edit
           </button>
         </>
@@ -72,7 +72,7 @@ const handleEditChange = (e) => {
         </>
       )}
     
-    <button onClick={()=>  (completeItem(complete(id)))}>complete</button>
+    <button onClick={()=>  ((complete(id)))}>complete</button>
     
   </li>
   
